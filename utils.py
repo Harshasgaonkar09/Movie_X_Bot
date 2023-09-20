@@ -1,4 +1,4 @@
-import logging
+hlimport logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
 from info import *
 from imdb import Cinemagoer
@@ -383,7 +383,7 @@ async def get_shortlink(link):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'https://GreyMattersLinks.in/api'
+    url = f'http://Tnshort.net/api'
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
               }
